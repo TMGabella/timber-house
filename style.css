@@ -1,0 +1,376 @@
+body{
+	margin: 0;
+	
+	
+} 
+
+* *,
+*:before,
+*:after { 
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+}
+
+
+p{
+	margin: 0 0 10px;
+}
+/* ========================================   */
+.container{
+	max-width: 1030px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
+}
+.header{
+	padding-top: 80px;
+	height: 100vh;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+.header__inner{
+margin-left: 120px;
+width: 525px;
+height: 525px;
+border: 10px solid #f4d4a5;
+border-radius: 50%;
+background-color: aliceblue;
+	text-align: center;
+	padding-top: 10px;
+}
+.name{
+font-family: Lato;
+font-size: 35px;
+line-height: 1.2;
+font-weight: 700;
+text-transform: uppercase;
+color: #bf4200;
+margin-bottom: 25px;
+padding-left: 5px;
+padding-right: 5px;
+}
+.number{
+
+font-family: Roboto;
+font-size: 35px;
+line-height: 1.2;
+font-weight: 400;
+color: #000000;
+
+}
+.header__title{
+margin-top: 40px;
+font-family: Roboto;
+font-size: 50px;
+line-height: 1.2;
+font-weight: 700;
+text-transform: uppercase;
+color: #1fad26;
+margin-bottom: 40px;
+}
+.main{
+	margin-top: 76px;
+	text-align: center;
+}
+.main__title{
+font-family: Roboto;
+font-size: 41px;
+line-height: 1.2;
+font-weight: 700;
+color: #d07a2d;
+margin-bottom: 70px;
+}
+.main__text{
+	font-size: 30px;
+}
+.main__img{
+	margin: 90px 0;
+}
+.project__name{
+font-family: Roboto;
+font-size: 41px;
+line-height: 1.2;
+font-weight: 700;
+color: #d0662d;
+margin-bottom: 115px;
+}
+.project__title{
+font-family: Roboto;
+font-size: 32px;
+line-height: 1.2;
+font-weight: 700;
+color: #000000;
+}
+.project__size{
+font-size: 25px;
+font-weight: 400;
+}
+.project__area{
+font-size: 25px;
+font-weight: 400;
+}
+.project__price{
+	font-size: 25px;
+	font-weight: 400;
+	color: #17753b;
+	margin-bottom: 28px;
+}
+.project__item2{
+	margin-bottom: 120px;
+}
+.download{
+	padding-top: 50px;
+	width: 100%;
+	height: 304px;
+	background-color: #f1dfbc;
+}
+.download__img{
+	
+	display: block;
+	margin: -9px auto;
+
+}
+.download__a{
+	font-family: Roboto;
+font-size: 32px;
+line-height: 1.2;
+font-weight: 700;
+text-decoration: underline;
+color: #ffffff;
+width: 604px;
+height: 80px;
+background-color:#17753b;
+border: 5px solid #effd15;
+}
+a.download__a {
+	display: inline-block;
+	padding: 12px;
+}
+.gallery__title{
+	margin-top: 120px;
+	font-family: Roboto;
+font-size: 41px;
+line-height: 1.2;
+font-weight: 700;
+color: #d07a2d;
+margin-bottom: 45px;
+}
+.gallery__text{
+	font-size: 25px;
+font-weight: 400;
+color: #1e1e1e;
+margin-bottom: 60px;
+}
+.footer{
+	text-align: center;
+}
+.number{
+	font-family: Roboto;
+font-size: 50px;
+line-height: 1.2;
+font-weight: 700;
+color: #000000;
+margin-top: 150px;
+text-decoration: none;
+}
+.footer__email{
+margin-top: 60px;
+font-size: 30px;
+text-decoration: underline;
+color: #2f8bc5;
+margin-bottom: 150px;
+}
+@media  (max-width:421px) {
+.header{
+	padding-top: 40px;
+}
+
+	.header__inner{
+		margin-left: 30px;
+		width: 190px;
+		height: 190px;
+		border: 5px solid #f4d4a5;
+		border-radius: 50%;
+		background-color: aliceblue;
+			text-align: center;
+			padding-top: 7px;
+		}
+		.name{
+			font-family: Lato;
+			font-size: 14px;
+			line-height: 1.2;
+			font-weight: 700;
+			text-transform: uppercase;
+			color: #bf4200;
+			margin-bottom: 10px;
+			padding-left: 5px;
+			padding-right: 5px;
+			}
+			.number{
+			
+			font-family: Roboto;
+			font-size: 14px;
+			line-height: 1.2;
+			font-weight: 400;
+			color: #000000;
+			
+			}
+			.header__title{
+			margin-top: 10px;
+			font-family: Roboto;
+			font-size: 18px;
+			line-height: 1.2;
+			font-weight: 700;
+			text-transform: uppercase;
+			color: #1fad26;
+			margin-bottom: 0px;
+         }
+			.sale{
+				width: 125px;
+				height: 125px;
+
+			}
+			.main__title{
+				font-size: 21px;
+				margin-bottom: 12px;
+				margin-top: -30px;
+			}
+			.main__text{
+				font-family: Roboto;
+				font-weight: 500;
+			}
+			.main__img{
+				margin: 40px 0;
+			}
+			.project__name{
+				font-family: Roboto;
+				font-size: 21px;
+				line-height: 1.2;
+				font-weight: 700;
+				color: #d0662d;
+				margin-bottom: 50px;
+				}
+				.project__title{
+					font-family: Roboto;
+					font-size: 32px;
+					line-height: 1.2;
+					font-weight: 700;
+					color: #000000;
+					}
+					.project__size{
+					font-size: 21px;
+					font-weight: 400;
+					}
+					.project__area{
+					font-size: 21px;
+					font-weight: 400;
+					}
+					.project__price{
+						font-size: 21px;
+						font-weight: 400;
+						color: #17753b;
+						margin-bottom: 14px;
+					}
+					.project__item1{
+						width: 100%;
+						height: 280px;
+					}
+					.project__item2{
+						width:100% ;
+						height: 230px;
+						margin-bottom: 60px;
+					}
+					.download{
+						padding-top: 20px;
+						width: 100%;
+						height: 200px;
+						background-color: #f1dfbc;
+               }
+					.download__a{
+						font-family: Roboto;
+					font-size: 16px;
+					line-height: 1.2;
+					font-weight: 700;
+					text-decoration: underline;
+					color: #ffffff;
+					width: 302px;
+					height: 40px;
+					background-color:#17753b;
+					border: 3px solid #effd15;
+					}
+					a.download__a {
+						display: inline-block;
+						padding: 7px;
+					}
+					.gallery__title {
+						margin-top: 60px;
+						font-family: Roboto;
+						font-size: 21px;
+						line-height: 1.2;
+						font-weight: 700;
+						color: #d07a2d;
+						margin-bottom: 15px;
+				  }
+				  .gallery__text {
+					font-size: 21px;
+					font-weight: 400;
+					color: #1e1e1e;
+					margin-bottom: 40px;
+			  }
+			  .gallery__img{
+				  width: 100%;
+				  height: 405px;
+				  
+			  }
+			  .footer__email{
+				margin-top: 20px;
+				font-size: 20px;
+				text-decoration: underline;
+				color: #2f8bc5;
+				margin-bottom: 50px;
+				}
+				.number{
+					font-family: Roboto;
+				font-size: 16px;
+				line-height: 1.2;
+				font-weight: 500;
+				color: #000000;
+				margin-top: 50px;
+				text-decoration: none;
+				}
+
+
+}
+@media (max-width:376px){
+	.project__item1{
+		width: 100%;
+		height: 250px;
+	}
+	.project__item2{
+		width:100%;
+		height: 215px;
+		margin-bottom: 60px;
+	}
+	.gallery__img{
+		width: 100%;
+		height: 362px;
+		
+	}
+	.number{
+		font-family: Roboto;
+	font-size: 16px;
+	line-height: 1.2;
+	font-weight: 500;
+	color: #000000;
+	margin-top: 50px;
+	text-decoration: none;
+	}
+}
+
+
+
